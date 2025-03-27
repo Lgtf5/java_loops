@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="L:\BOOTCAMP FULLSTACK\factoriaf5-proyectos\talleres clase\ARANCHA\JAVA_TDD_Loops\java_loops\src\main\java\dev\lidia\MultiplicationTable.java">
+<error line="5" column="1" severity="error" message="&apos;CLASS_DEF&apos; cuenta con más de 1 líneas vacías antes." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="5" column="1" severity="error" message="Clases de servicios públicos no deben tener un constructor público o por defecto." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="5" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="6" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="8" column="5" severity="error" message="method def el descendiente en el nivel de sangrado 4 no está al nivel correcto, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="5" severity="error" message="for en el nivel de sangrado 4 no está al nivel correcto, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="26" severity="error" message="&apos;10&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="10" column="9" severity="error" message="for el descendiente en el nivel de sangrado 8 no está al nivel correcto, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="33" severity="error" message="&apos;(&apos; está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="11" column="5" severity="error" message="for rcurly en el nivel de sangrado 4 no está al nivel correcto, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="5" severity="error" message="method def el descendiente en el nivel de sangrado 4 no está al nivel correcto, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="1" severity="error" message="&apos;}&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="1" severity="error" message="method def rcurly en el nivel de sangrado 0 no está al nivel correcto, 4" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="2" severity="error" message="&apos;}&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="L:\BOOTCAMP FULLSTACK\factoriaf5-proyectos\talleres clase\ARANCHA\JAVA_TDD_Loops\java_loops\src\test\java\dev\lidia\MultiplicationTableTest.java">
+<error line="5" column="1" severity="error" message="Orden incorrecto para el import &apos;org.junit.jupiter.api.DisplayName&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="10" column="25" severity="error" message="La variable &apos;table&apos; debe ser privada y tener métodos de acceso." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="16" column="44" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="17" column="43" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="18" column="43" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="19" column="43" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="20" column="44" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="21" column="44" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="22" column="44" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="23" column="44" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="24" column="44" severity="error" message="&apos;+&apos; debería estar en una línea nueva." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="28" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>
